@@ -1,0 +1,133 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    height: 5.73vw;
+    padding: 0.68vw 4.69vw 1.20vw 10.41vw;
+    background: #2A8086;
+    align-items: center;
+}
+
+.logo_links {
+    display: flex;
+    padding-top: 1.2vw;
+}
+
+.link {
+    text-decoration: none;
+    color: #C5E1E6;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.94vw;
+    margin: 1.7vw 1.35vw 2.24vw 1.35vw;
+}
+
+.links {
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-right: 2.083vw;
+    width: 5.63vw;
+    height: 4.32vw;
+}
+
+.reg_serbas {
+    width: 20vw;
+}
+
+.shop_button {
+    float: right;
+    cursor: pointer;
+    color: 500ms ease;
+    color: #C5E1E6;
+}
+
+.shop_button:active, .shop_button:hover {
+    color: rgb(16, 69, 9);
+}
+
+.login {
+    text-decoration: none;
+    color: #C5E1E5;
+    font-size: 0.94vw;
+}
+
+.auth {
+    text-decoration: none;
+    border-radius: 100px;  
+    color: #C5E1E5; 
+    width: 5.05vw;
+    height: 2.71vw;
+    margin-left: 1.25vw;
+    font-size: 0.94vw;
+}
+
+
+.search {
+    width: 15vw;
+    height: 2.81vw;
+    top: 1.25vw;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 0.52vw;
+    border-style: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-header {
+        height: 10.33vw;
+        padding: 1.67vw 2.50vw 2.50vw 2.67vw;
+    }
+
+    .link {
+        font-size: 1.50vw;
+        margin: 0 1.75vw 0 1.75vw;
+    }
+
+    .logo {
+        width: 9vw;
+        height: 6.92vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container-header {
+        height: 12.19vw;
+        padding: 3.13vw;
+    }
+
+    .link {
+        font-size: 2.03vw;
+        margin: 0 1.72vw 0 1.72vw;
+    }
+
+    .logo {
+        width: 7.81vw;
+        height: 5.94vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-header {
+        height: 15.63vw;
+        padding: 2.19vw 4.69vw 1.56vw 4.69vw;
+    }
+
+    .link {
+        font-size: 1vw;
+        margin: 0 2vw 0 2vw;
+    }
+
+    .logo {
+        width: 15vw;
+        height: 11vw;
+    }
+}

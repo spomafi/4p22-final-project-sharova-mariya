@@ -1,0 +1,24 @@
+.container-footer {
+    background: #2A8086;
+    height: 5.73vw;
+    display: flex;
+    align-items: center;
+}
+
+.mariisav {
+    color: #a6e9ca;
+    margin-left: 32vw;
+    margin-right: 27vw;
+    font-size: 1.2vw;
+}
+
+.logo-s {
+    margin-left: 9vw;
+    width: 5.63vw;
+    height: 4.32vw;
+}
+
+.logo-ui {
+    width: 10.63vw;
+    height: 2.5vw;
+}

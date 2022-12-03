@@ -1,0 +1,68 @@
+.modal__background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+}
+
+.modal__wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spisok {
+    width: 5vw;
+}
+
+.spisok1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modal__wrapper.open {
+    height: 100%;
+    display: block;
+    
+}
+
+.modal__wrapper.close {
+    height: 0;
+    display: none;
+}
+
+.modal__body {
+    max-width: 500px;
+    /* margin: auto; */
+    background: white;
+    /* margin-top: 5%; */
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+
+.modal__body::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.modal__body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.modal__close {
+    text-align: right;
+    margin-top: -15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: grey;
+}
+
+.tickets {
+   margin: 0;
+}

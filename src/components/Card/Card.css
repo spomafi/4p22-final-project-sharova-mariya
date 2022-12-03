@@ -1,0 +1,143 @@
+.Card {
+    width: 25vw;
+    height: 20vw;
+    box-shadow: 1px 1px 10px 4px #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0.52vw;
+}
+
+.Card-title {
+    margin: 0;
+}
+
+.h2-p {
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-container {
+    display: flex;
+}
+
+.button {
+    color: #0D444D;
+    width: 8.44vw;
+    height: 2.71vw;
+    color: #FFFFFF;
+    background-color: #0D444D;
+    box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+    border-radius: 5.21vw;
+    border-style: none;
+    font-size: 0.94vw;
+    cursor: pointer;
+}
+    
+.button:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3.44vw 10.2vw 5.21vw;
+}
+  
+  
+.Card-img {
+    width: 10.88vw;
+    height: 10.51vw;
+    object-fit: cover;
+    margin: 1.04vw 6.51vw 1.67vw 7vw;
+}
+
+.Card-button {
+    margin: 0.5vw;
+    display: flex;
+    justify-content: right;
+}
+
+.Card-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .Card {
+        width: 28vw;
+        height: 24vw;
+        border-radius: 0.75vw;
+        margin: 1.33vw;
+    }
+    
+    .cards {
+        margin: 4.67vw 4vw 7.33vw;
+    }
+      
+      
+    .Card-img {
+        width: 12.92vw;
+        height: 12.50vw;
+        margin: 2.08vw 7.58vw 0.2vw 7.42vw;
+    }
+    
+    .Card-button {
+        margin: 0.5vw;
+    }
+}
+
+@media (max-width: 640px) {
+    .Card {
+        width: 40vw;
+        height: 46.56vw;
+        border-radius: 1.56vw;
+        margin: 1.56vw;
+    }
+    
+    .cards {
+        margin: 3.13vw 6.25vw 6.25vw;
+    }
+      
+      
+    .Card-img {
+        width: 26.41vw;
+        height: 25.63vw;
+        margin: 4.38vw 6.72vw 0.2vw 6.72vw;
+    }
+    
+    .Card-button {
+        margin-left: 16vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .Card {
+        width: 75vw;
+        height: 97.50vw;
+        border-radius: 3.44vw;
+        margin: 3.13vw;
+    }
+    
+    .cards {
+        margin: 6.88vw 9.38vw 7.33vw 16.25vw;
+    }
+      
+      
+    .Card-img {
+        width: 47.50vw;
+        height: 45.94vw;
+        margin: 15.31vw 13.44vw 0.5vw 13.44vw;
+    }
+    
+    .Card-button {
+        margin-left: 0.5vw
+    
+    }
+
+    .Card-description {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

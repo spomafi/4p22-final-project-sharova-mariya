@@ -1,0 +1,718 @@
+.Buy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 {
+    width: auto;
+    height: auto;
+}
+
+.Buy {
+    width: auto;
+    height: 41.2vw;
+    background: url('../../assets/png/Frame\ 1304.png');
+    background-size: cover;
+}
+
+.h1_button {
+    margin-left: 3.50vw;
+}
+
+.h {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.75vw;
+    line-height: 4.43vw;
+    color: #F3F7F8;
+    margin: 0;
+    margin-top: 5.36vw;
+}
+
+.p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.04vw;
+    color: #F3F7F8;
+    margin-top: 1.41vw;
+}
+
+.buytickets {
+    color: #0D444D;
+    width: 13.44vw;
+    height: 2.71vw;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+    border-radius: 5.21vw;
+    border-style: none;
+    margin-top: 3.53vw;
+    font-size: 0.94vw;
+}
+
+.pandaimg {
+    width: 41.82vw;
+    height: 34.69vw;
+    margin-top: 2.50vw;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8vw 10vw 5vw;
+}
+
+.card-work-1 {
+    margin-top: 0.9vw;
+}
+
+.img-work-1 {
+    margin-left: 9vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+.img-work-2 {
+    margin-top: 1vw;
+    margin-left: 6vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+.img-work-3 {
+    margin-top: 1vw;
+    margin-left: 6.5vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+.workspanda {
+    background: url('../../assets/png/illustrations.png');
+    width: auto;
+    height: 29.1vw;
+    background-size: cover;
+}
+
+.howwork {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    text-transform: uppercase;
+    color: #0D444D;
+    margin-left: 11.46vw;
+}
+
+.text-icons {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.04vw;
+    text-align: center;
+    color: #0D444D;
+}
+
+.feed-h2 {
+    display: flex;
+}
+
+.h2-pets {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    text-transform: uppercase;
+    color: #0D444D;
+    margin-left: 11.46vw;
+    margin-top: 4.32vw;
+}
+
+.pay {
+    background: url('../../assets/png/Frame\ 1266.png');
+    width: auto;
+    height: 29.1vw;
+    background-size: cover;
+}
+
+.h2-pay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    text-transform: uppercase;
+    color: #C5E1E6;
+    margin: 4.5vw 0 0 11.46vw;
+}
+
+.donate {
+    width: 18.54vw;
+    height: 2.71vw;
+    background: #C5E1E6;
+    border-style: none;
+    border-radius: 5.21vw;
+    box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+    margin: 4.69vw 14vw 0 0;
+    font-size: 0.94vw;
+    line-height: 0.94vw;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #0D444D;
+}
+
+.you-donate-3 {
+    display: flex;
+    margin-left: 15vw;
+}
+
+.container-pay {
+    background: url('../../assets/png/Ellipse\ 3.png');
+    width: 15vw;
+    height: 15vw;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+}
+
+.white1 {
+    width: 4vw;
+    height: 4vw;
+    margin: 5.5vw 5.4vw 4vw;
+}
+
+.white2 {
+    width: 4vw;
+    height: 4vw;
+    margin: 5.5vw 5.4vw 4vw ;
+}
+
+.white3 {
+    width: 4vw;
+    height: 4vw;
+    margin: 5.5vw 5.4vw 4vw ;
+}
+
+.arrow {
+    margin-top: 6.8vw;
+    height: 2vw;
+}
+
+.text-pay {
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 1.04vw;
+    text-align: center;
+    color: #C5E1E6;
+    margin: 0;
+}
+
+.test-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    text-transform: uppercase;
+    color: #0D444D;
+    margin-top: 5.83vw;
+    margin-left: 11.46vw;
+}
+
+.feed {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.94vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #19707D;
+    margin-top: 5vw;
+    margin-right: 11.46vw;
+}
+
+.comments {
+    display: flex;
+    margin: 0.2vw 11.46vw 5vw 11.46vw;
+}
+
+.comment-adam, .comment-chris, .comment-amely {
+    background: url('../../assets/png/Rectangle.png');
+    width: 25vw;
+    height: 9.90vw;
+    background-size: cover;
+    margin-left: 0.52vw;
+    margin-right: 0.52vw;
+}
+
+.december {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.73vw;
+    line-height: 0.05vw;
+    color: #B3B3B3;
+    margin: 2.5vw 2.34vw 0 2.34vw;
+}
+
+.awesome {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.85vw;
+    line-height: 0.99vw;
+    color: #2D2D2D;
+    margin: 0.47vw 2.34vw 4.95vw 2.34vw;
+}
+
+.adam-photo, .chris-photo, .amely-photo {
+    display: flex;
+    margin-top: 5.5vw;
+    margin-left: 1.3vw;
+}
+
+.photo {
+    width: 3.54vw;
+    height: 3.54vw;
+}
+
+.name-text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.83vw;
+    line-height: 0.99vw;
+    color: #000000;
+    margin-left: 0.83vw;
+    margin-top: 1.3vw;
+}
+
+.sect {
+    margin-bottom: 9vw;
+}
+
+@media (max-width: 1200px) {
+    .Buy {
+        height: 54.75vw;
+    }
+    
+    .h1_button {
+        margin-left: 0;
+    }
+    
+    .h {
+        font-size: 5.33vw;
+        margin-top: 7.50vw;
+    }
+    
+    .p {
+        font-size: 1.33vw;
+        margin-top: 2.50vw;
+    }
+    
+    .buytickets {
+        width: 21.50vw;
+        height: 4.33vw;
+        border-radius: 8.33vw;
+        margin-top: 3.08vw;
+        font-size: 1.50vw;
+    }
+    
+    .pandaimg {
+        width: 46.67vw;
+        height: 38.58vw;
+        margin-top: 3.83vw
+    }
+
+    .howwork {
+        font-size: 2vw;
+        margin-left: 2.33vw;
+    }
+    
+    .icons {
+        margin: 8vw 2vw 5vw;
+    }
+    
+    .card-work-1 {
+        margin-top: 0.9vw;
+    }
+    
+    .img-work-1 {
+        margin-left: 11.7vw;
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    .img-work-2 {
+        margin-top: 1vw;
+        margin-left: 7.8vw;
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    .img-work-3 {
+        margin-top: 1vw;
+        margin-left: 8vw;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .text-icons {
+        margin-top: 4vw;
+        font-size: 1.5vw;
+    }
+    
+    .workspanda {
+        height: 41vw;
+    }
+    
+    .feed-h2 {
+        display: flex;
+    }
+    
+    .h2-pets {
+        font-size: 2vw;
+        margin-left: 2vw;
+        margin-top: 2.33vw;
+    }
+
+    .h2-pay {
+        font-size: 2vw;
+        margin-left: 10vw;
+    }
+    
+    .pay {
+        height: 44.17vw;
+    }
+    
+    .pay-text {
+        font-size: 2vw;
+        margin: 5vw 1vw 0 2vw;
+    }
+    
+    .donate {
+        width: 15vw;
+        height: 2.71vw;
+        border-radius: 5.21vw;
+        margin: 4.69vw 54vw 0 0;
+        font-size: 1.1vw;
+        justify-content: flex-start;
+    }
+    
+    .you-donate-3 {
+        margin-top: 7vw;
+        margin-left: 18vw;
+    }
+    
+    .container-pay {
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    .white1 {
+        width: 4vw;
+        height: 4vw;
+        margin: 5.5vw 5.4vw 5vw;
+    }
+    
+    .white2 {
+        width: 4vw;
+        height: 4vw;
+        margin: 5.5vw 5.4vw 5vw ;
+    }
+    
+    .white3 {
+        width: 4vw;
+        height: 4vw;
+        margin: 5.5vw 5.4vw 5vw ;
+    }
+    
+    .arrow {
+        margin-top: 6.8vw;
+        height: 2vw;
+    }
+    
+    .text-pay {
+        font-size: 1.4vw;
+        margin: 0;
+    }
+    
+    .test-text {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .h2-text {
+        font-size: 2vw;
+        margin-top: 5.17vw;
+        margin-left: 2vw;
+    }
+    
+    .feed {
+        font-size: 1.33vw;
+        margin-top: 4.67vw;
+        margin-right: 2.50vw;
+    }
+    
+    .comments {
+        margin: 6vw 2.5vw 2.58vw 5vw 2.58vw;
+    }
+    
+    .comment-adam, .comment-chris, .comment-amely {
+        width: 30.58vw;
+        height: 15.83vw;
+        margin-left: 0.75vw;
+        margin-right: 0.75vw;
+    }
+    
+    .december {
+        font-size: 1.17vw;
+        margin: 3vw 0 0.75vw 3.75vw;
+    }
+    
+    .awesome {
+        font-size: 1.33vw;
+        margin-left: 3.75vw;
+    }
+    
+    .adam-photo, .chris-photo, .amely-photo {
+        margin-top: 8vw;
+        margin-left: 2.5vw;
+    }
+    
+    .photo {
+        width: 5.67vw;
+        height: 5.67vw;
+    }
+    
+    .name-text {
+        font-size: 1.33vw;
+        margin-left: 1vw;
+        margin-top: 2.2vw;
+    }
+    
+    .sect {
+        margin-bottom: 12vw;
+    }
+}
+
+@media (max-width: 640px) {
+    .Buy {
+        height: 54.28vw;
+    }
+    
+    .h1_button {
+        margin-left: 3.13vw;
+    }
+    
+    .h {
+        font-size: 5.63vw;
+        margin-top: 4.53vw;
+    }
+    
+    .p {
+        font-size: 2.19vw;
+        margin-top: 3.13vw;
+        line-height: 3.13vw;
+    }
+    
+    .buytickets {
+        width: 26.56vw;
+        height: 5.78vw;
+        border-radius: 15.63vw;
+        margin-top: 1.84vw;
+        font-size: 2.19vw;
+    }
+    
+    .pandaimg {
+        width: 39.84vw;
+        height: 32.97vw;
+        margin-top: 6.16vw;
+        margin-right: 4vw;
+    }
+
+    .howwork {
+        font-size: 2.81vw;
+        margin-left: 3.13vw;
+    }
+    
+    .icons {
+        margin: 4.69vw 2.97vw 3.28vw;
+    }
+    
+    .card-work-1 {
+        margin-top: 0.9vw;
+    }
+    
+    .img-work-1 {
+        margin-left: 16vw;
+        width: 6.25vw;
+        height: 6.25vw;
+    }
+    
+    .img-work-2 {
+        margin-top: 1vw;
+        margin-left: 10.5vw;
+        width: 6.25vw;
+        height: 6.25vw;
+    }
+    
+    .img-work-3 {
+        margin-top: 1vw;
+        margin-left: 11vw;
+        width: 6.25vw;
+        height: 6.25vw;
+    }
+
+    .text-icons {
+        margin-top: 4vw;
+        font-size: 2.19vw;
+        line-height: 3.13vw;
+    }
+    
+    .workspanda {
+        height: 40.47vw;
+    }
+    
+    .feed-h2 {
+        display: flex;
+    }
+    
+    .h2-pets {
+        font-size: 2.81vw;
+        margin-left: 3.28vw;
+        margin-top: 5.94vw;
+    }
+
+    .h2-pay {
+        font-size: 2.81vw;
+        margin-left: 12.13vw;
+    }
+    
+    .pay {
+        height: 50.16vw;
+    }
+    
+    .pay-text {
+        font-size: 2vw;
+        margin: 5vw 1vw 0 2vw;
+    }
+    
+    .donate {
+        width: 19vw;
+        height: 2.71vw;
+        border-radius: 5.21vw;
+        margin: 4.69vw 47vw 0 0;
+        font-size: 1.3vw;
+        justify-content: flex-start;
+    }
+    
+    .you-donate-3 {
+        margin-top: 6vw;
+        margin-left: 9vw;
+    }
+    
+    .container-pay {
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .white1 {
+        width: 7vw;
+        height: 7vw;
+        margin: 6.5vw 6.4vw 5vw;
+    }
+    
+    .white2 {
+        width: 7vw;
+        height: 7vw;
+        margin: 6.5vw 6.4vw 5vw ;
+    }
+    
+    .white3 {
+        width: 7vw;
+        height: 7vw;
+        margin: 6.5vw 6.4vw 5vw ;
+    }
+    
+    .arrow {
+        margin-top: 8.8vw;
+        height: 3vw;
+        width: 13vw;
+    }
+    
+    .text-pay {
+        font-size: 2.5vw;
+        margin: 0;
+        line-height: 3.13vw;
+    }
+    
+    .test-text {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .h2-text {
+        font-size: 2vw;
+        margin-top: 5.17vw;
+        margin-left: 2vw;
+    }
+    
+    .feed {
+        font-size: 2vw;
+        margin-top: 4.67vw;
+        margin-right: 4vw;
+    }
+    
+    .comments {
+        margin: 6vw 2.5vw 2.58vw 5vw 2.58vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .comment-adam, .comment-chris, .comment-amely {
+        width: 42.19vw;
+        height: 25vw;
+        margin: 3vw;
+        
+    }
+    
+    .december {
+        font-size: 2.2vw;
+        margin: 5vw 0 1vw 4vw;
+    }
+    
+    .awesome {
+        font-size: 2vw;
+        margin-left: 4.2vw;
+        line-height: 3.13vw;
+    }
+    
+    .adam-photo, .chris-photo, .amely-photo {
+        margin-top: 8vw;
+        margin-left: 2.5vw;
+    }
+    
+    .photo {
+        width: 5.67vw;
+        height: 5.67vw;
+    }
+    
+    .name-text {
+        font-size: 1.33vw;
+        margin-left: 1vw;
+        margin-top: 2.2vw;
+    }
+    
+    .sect {
+        margin-bottom: 12vw;
+    }
+}
