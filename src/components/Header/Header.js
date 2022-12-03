@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import { FaShoppingCart } from "react-icons/fa";
 import logo from '../../assets/svg/Logo-large.svg';
-import Card1 from '../Card/Card1';
 
 function Header() {
     return (
