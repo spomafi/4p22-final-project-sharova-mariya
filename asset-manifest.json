@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/4p22-final-project-sharova-mariya/static/css/main.e964a400.css",
-    "main.js": "/4p22-final-project-sharova-mariya/static/js/main.bed860e2.js",
+    "main.js": "/4p22-final-project-sharova-mariya/static/js/main.02f2f371.js",
     "static/media/Panda.png": "/4p22-final-project-sharova-mariya/static/media/Panda.f31d26099fc6e7d324f7.png",
     "static/media/crocodile.png": "/4p22-final-project-sharova-mariya/static/media/crocodile.772738f745b918f07177.png",
     "static/media/elephant.png": "/4p22-final-project-sharova-mariya/static/media/elephant.2f3c2b4cce16fe360c8d.png",
@@ -22,10 +22,10 @@
     "static/media/icons8-trust.svg": "/4p22-final-project-sharova-mariya/static/media/icons8-trust.11c3037f057128b222209c4c1219fd2f.svg",
     "index.html": "/4p22-final-project-sharova-mariya/index.html",
     "main.e964a400.css.map": "/4p22-final-project-sharova-mariya/static/css/main.e964a400.css.map",
-    "main.bed860e2.js.map": "/4p22-final-project-sharova-mariya/static/js/main.bed860e2.js.map"
+    "main.02f2f371.js.map": "/4p22-final-project-sharova-mariya/static/js/main.02f2f371.js.map"
   },
   "entrypoints": [
     "static/css/main.e964a400.css",
-    "static/js/main.bed860e2.js"
+    "static/js/main.02f2f371.js"
   ]
 }
