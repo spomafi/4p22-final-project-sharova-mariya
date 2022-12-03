@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/4p22-final-project-sharova-mariya/static/css/main.e964a400.css",
+    "main.js": "/4p22-final-project-sharova-mariya/static/js/main.bed860e2.js",
+    "static/media/Panda.png": "/4p22-final-project-sharova-mariya/static/media/Panda.f31d26099fc6e7d324f7.png",
+    "static/media/crocodile.png": "/4p22-final-project-sharova-mariya/static/media/crocodile.772738f745b918f07177.png",
+    "static/media/elephant.png": "/4p22-final-project-sharova-mariya/static/media/elephant.2f3c2b4cce16fe360c8d.png",
+    "static/media/lemur.png": "/4p22-final-project-sharova-mariya/static/media/lemur.bacfa1f02bd873e95456.png",
+    "static/media/gorilla.png": "/4p22-final-project-sharova-mariya/static/media/gorilla.bd0c4aca058cf20e931d.png",
+    "static/media/panda1.png": "/4p22-final-project-sharova-mariya/static/media/panda1.f792a6e3f6b1d19dc1f2.png",
+    "static/media/eagle.png": "/4p22-final-project-sharova-mariya/static/media/eagle.1bb3c3f8eeb3b1d36640.png",
+    "static/media/illustrations.png": "/4p22-final-project-sharova-mariya/static/media/illustrations.1a1e0a0dfe767d2e6db2.png",
+    "static/media/Ellipse 3.png": "/4p22-final-project-sharova-mariya/static/media/Ellipse 3.420e00a0ae557f30b898.png",
+    "static/media/Frame 1266.png": "/4p22-final-project-sharova-mariya/static/media/Frame 1266.f30fab742eb5f9f220ce.png",
+    "static/media/Rectangle.png": "/4p22-final-project-sharova-mariya/static/media/Rectangle.b2be58d327007cef1764.png",
+    "static/media/Frame 1304.png": "/4p22-final-project-sharova-mariya/static/media/Frame 1304.d05cb2fc674063407adc.png",
+    "static/media/adam.png": "/4p22-final-project-sharova-mariya/static/media/adam.910078bb35bd360c65b6.png",
+    "static/media/chris.png": "/4p22-final-project-sharova-mariya/static/media/chris.5b4ecc9ba5dc7a31cc5c.png",
+    "static/media/Logo-large.svg": "/4p22-final-project-sharova-mariya/static/media/Logo-large.460709dc1ab13888d7777de8824c5bc2.svg",
+    "static/media/icons8-binoculars.svg": "/4p22-final-project-sharova-mariya/static/media/icons8-binoculars.8bf709907e28269042ab8e7a9afa73a1.svg",
+    "static/media/icons8-dog-paw-print.svg": "/4p22-final-project-sharova-mariya/static/media/icons8-dog-paw-print.eba55d7c8daff7c71123d948c04c8d5d.svg",
+    "static/media/icons8-trust.svg": "/4p22-final-project-sharova-mariya/static/media/icons8-trust.11c3037f057128b222209c4c1219fd2f.svg",
+    "index.html": "/4p22-final-project-sharova-mariya/index.html",
+    "main.e964a400.css.map": "/4p22-final-project-sharova-mariya/static/css/main.e964a400.css.map",
+    "main.bed860e2.js.map": "/4p22-final-project-sharova-mariya/static/js/main.bed860e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e964a400.css",
+    "static/js/main.bed860e2.js"
+  ]
+}
