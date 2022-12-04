@@ -8,6 +8,7 @@ import crocodile from '../../assets/png/crocodile.png';
 import elephant from '../../assets/png/elephant.png';
 import lemur from '../../assets/png/lemur.png';
 import { removeFromBasket } from '../../store/basket/basketSlice';
+import Header from '../../components/Header/Header';
 
 const animalsNames = ['panda', 'eagle', 'gorilla', 'crocodile', 'elephant', 'lemur'];
 const images = {
@@ -41,19 +42,31 @@ function BasketPage() {
         dispatch(removeFromBasket(name));
     }
 
+    const handleCheckout = () => {
+        let result = {};
+        animalsNames?.forEach(animal => {
+            if (basket[animal]) result[animal] = basket[animal];
+        })
+        console.log(result);
+    }
+
     return (
         <div>
+            <Header />
             {animals?.map(animal => {
                 return (
                     basket[animal.localName] ? <div style={{display: 'flex', alignItems: 'center'}}>
-                    <img src={images[animal.localName]}/>
-                    <span>{animal.name}</span>
-                    <span>{animal.locations}</span>
-                    <span>{basket[animal.localName]}</span>
-                    <button onClick={() => handleRemove(animal.localName)}>Remove from basket</button>
+                    <div className='container-animals' key={animal.localName}>
+                        <img src={images[animal.localName]} className='img-basket'/>
+                        <span className='name-basket'>{animal.name}</span>
+                        <span className='locations-basket'>{animal.locations}</span>
+                        <span className='number'>{basket[animal.localName]}</span>
+                        <button onClick={() => handleRemove(animal.localName)} className='button-remove'>Remove from basket</button>
+                    </div>
                 </div> : <></>
                 )
             })}
+            <button className='checkout-button' onClick={handleCheckout}>Checkout</button>
         </div>
     )
 }

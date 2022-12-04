@@ -39,48 +39,48 @@ function Modal(props) {
                 <hr />
                 <div>
                     <div>
-                        <p>Adult tickets 15$</p>
-                        <p>Who would you like to go to?</p>
+                        <p className='sent'>Adult tickets 15$</p>
+                        <p className='modal-text'>Who would you like to go to?</p>
                         <div className='spisok1'>
                             <div className='spisok'>
-                                <p>Pandas</p>
-                                <button onClick={() => handleIncrement('panda')}>+</button>
+                                <p className='modal-animal'>Pandas</p>
+                                <button onClick={() => handleIncrement('panda')} className='button-plus'>+</button>
                                 { counts.panda }
-                                <button onClick={() => handleDecrement('panda')}>-</button>
+                                <button onClick={() => handleDecrement('panda')} className='button-minus'>-</button>
                             </div>
                             <div className='spisok'>
-                                <p>Eaglea</p>
-                                <button onClick={() => handleIncrement('eagle')}>+</button>
+                                <p className='modal-animal'>Eaglea</p>
+                                <button onClick={() => handleIncrement('eagle')} className='button-plus'>+</button>
                                 { counts.eagle }
-                                <button onClick={() => handleDecrement('eagle')}>-</button>
+                                <button onClick={() => handleDecrement('eagle')} className='button-minus'>-</button>
                             </div>
                             <div className='spisok'>
-                                <p>Gorillas</p>
-                                <button onClick={() => handleIncrement('gorilla')}>+</button>
+                                <p className='modal-animal'>Gorillas</p>
+                                <button onClick={() => handleIncrement('gorilla')} className='button-plus'>+</button>
                                 { counts.gorilla }
-                                <button onClick={() => handleDecrement('gorilla')}>-</button>
+                                <button onClick={() => handleDecrement('gorilla')} className='button-minus'>-</button>
                             </div>
                             <div className='spisok'>
-                                <p>Crocodiles</p>
-                                <button onClick={() => handleIncrement('crocodile')}>+</button>
+                                <p className='modal-animal'>Crocodiles</p>
+                                <button onClick={() => handleIncrement('crocodile')} className='button-plus'>+</button>
                                 { counts.crocodile }
-                                <button onClick={() => handleDecrement('crocodile')}>-</button>
+                                <button onClick={() => handleDecrement('crocodile')} className='button-minus'>-</button>
                             </div>
                             <div className='spisok'>
-                                <p>Elephants</p>
-                                <button onClick={() => handleIncrement('elephant')}>+</button>
+                                <p className='modal-animal'>Elephants</p>
+                                <button onClick={() => handleIncrement('elephant')} className='button-plus'>+</button>
                                 { counts.elephant }
-                                <button onClick={() => handleDecrement('elephant')}>-</button>
+                                <button onClick={() => handleDecrement('elephant')} className='button-minus'>-</button>
                             </div>
                             <div className='spisok'>
-                                <p>Lemurs</p>
-                                <button onClick={() => handleIncrement('lemur')}>+</button>
+                                <p className='modal-animal'>Lemurs</p>
+                                <button onClick={() => handleIncrement('lemur')} className='button-plus'>+</button>
                                 { counts.lemur }
-                                <button onClick={() => handleDecrement('lemur')}>-</button>
+                                <button onClick={() => handleDecrement('lemur')} className='button-minus'>-</button>
                             </div>
                         </div>
                     </div>
-                    <button onClick={handleAddToBasket}>ADD TO BASKET</button>
+                    <button onClick={handleAddToBasket} className='button-addbasket'>ADD TO BASKET</button>
                 </div>
             </div>
         </div></>

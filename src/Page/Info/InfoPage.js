@@ -8,6 +8,7 @@ import crocodile from '../../assets/png/crocodile.png'
 import elephant from '../../assets/png/elephant.png'
 import lemur from '../../assets/png/lemur.png';
 import Modal from '../../components/Modal/Modal';
+import Header from '../../components/Header/Header';
 
 const images = { 
     panda,
@@ -39,10 +40,13 @@ function InfoPage() {
 
     return (
         <>
-            <img src={images[name]}></img>
-            <h2>{ animal?.name }</h2>
-            <p>{ animal?.locations }</p>
-            <button onClick={handleClick}>button</button>
+            <Header />
+            <div className='info-container'>
+                <img src={images[name]} className='info-img'></img>
+                <h2 className='info-h2'>{ animal?.name }</h2>
+                <p className='info-p'>{ animal?.locations }</p>
+                <button className='buttons' onClick={handleClick}>BUY TICKETS</button>
+            </div>
             <Modal 
             isOpened={openModal} 
             onModalClose={() => setOpenModal(false)} />

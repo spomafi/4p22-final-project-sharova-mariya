@@ -13,16 +13,17 @@ function Card() {
 
     return (
         <>
-            <input type='text' placeholder='Search...' className='search' value={search} onInput={(e) => setSearch(e.target.value)}></input>
-
-            <select className='select' onChange={(event) => setFilter(event.target.value)}>
-            <option value="">Выбери букву</option>
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
-            <option value="F">F</option>
-            <option value="G">G</option>
-            </select>
+            <div className='input-alph'>
+                <input type='text' placeholder='Search...' className='search' value={search} onInput={(e) => setSearch(e.target.value)}></input>
+                <select className='select' onChange={(event) => setFilter(event.target.value)}>
+                <option value="">Choose a letter</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                </select>
+            </div>
             <div className='cards'>
                 <Card1 filter={filter} search={search} />
                 <Card2 filter={filter} search={search} />

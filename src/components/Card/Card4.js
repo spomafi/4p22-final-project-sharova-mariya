@@ -39,8 +39,6 @@ function Card4({ onClick = () => {}, filter = '', search = '' }) {
         <div className='Card-container'><div className='h2-p'>
                     <h2 className='Card-title common-header'>{ animal?.name }</h2>
                     <p className="Card-description">{ animal?.locations }</p>
-                </div>
-            <div className='Card-button'>
                 <button className='button' onClick={(e) => {
                     e.stopPropagation();
                     setModal({

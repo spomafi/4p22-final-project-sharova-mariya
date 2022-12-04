@@ -1,9 +1,12 @@
 .modal__background {
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
     height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, .2);
-    backdrop-filter: blur(10px);
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
 }
 
 .modal__wrapper {
@@ -13,14 +16,13 @@
     transform: translate(-50%, -50%);
 }
 
-.spisok {
-    width: 5vw;
-}
-
 .spisok1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+}
+
+.spisok {
+    margin: 0 1vw 0 1vw;
 }
 
 .modal__wrapper.open {
@@ -35,14 +37,52 @@
 }
 
 .modal__body {
-    max-width: 500px;
+    max-width: 1000px;
     /* margin: auto; */
     background: white;
-    /* margin-top: 5%; */
+    margin-top: 50px;
     padding: 20px;
     border-radius: 10px;
     overflow-y: scroll;
-    max-height: 100%;
+}
+
+.sent, .modal-text {
+    font-size: 2vw;
+}
+
+.modal-animal {
+    font-size: 2vw;
+}
+
+.button-plus {
+    background-color: black;
+    color: white;
+    border-style: none;
+    margin-right: 0.6vw;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.2vw;
+}
+
+.button-minus {
+    background-color: black;
+    color: white;
+    border-style: none;
+    margin-left: 0.6vw;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.2vw;
+}
+
+.button-addbasket {
+    background-color: black;
+    color: white;
+    border-style: none;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    width: 13vw;
+    height: 4vw;
+    font-size: 1.5vw;
 }
 
 .modal__body::-webkit-scrollbar {
@@ -65,4 +105,45 @@
 
 .tickets {
    margin: 0;
+}
+
+@medis (max-width: 640px) {
+    .sent, .modal-text {
+        font-size: 4vw;
+    }
+    
+    .modal-animal {
+        font-size: 4vw;
+    }
+    
+    .button-plus {
+        background-color: black;
+        color: white;
+        border-style: none;
+        margin-right: 0.6vw;
+        width: 2vw;
+        height: 2vw;
+        font-size: 1.2vw;
+    }
+    
+    .button-minus {
+        background-color: black;
+        color: white;
+        border-style: none;
+        margin-left: 0.6vw;
+        width: 2vw;
+        height: 2vw;
+        font-size: 1.2vw;
+    }
+    
+    .button-addbasket {
+        background-color: black;
+        color: white;
+        border-style: none;
+        margin-top: 2vw;
+        font-size: 1.5vw;
+        width: 16vw;
+        height: 4vw;
+        font-size: 1.5vw;
+    }
 }

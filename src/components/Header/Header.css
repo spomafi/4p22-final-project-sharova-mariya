@@ -39,10 +39,17 @@ body {
 }
 
 .reg_serbas {
-    width: 20vw;
+    display: flex;
+}
+
+.reg {
+    margin: 1vw 0 0 0;
 }
 
 .shop_button {
+    margin: 0.5vw 0 0 2vw;
+    width: 2vw;
+    height: 2vw;
     float: right;
     cursor: pointer;
     color: 500ms ease;
@@ -51,34 +58,6 @@ body {
 
 .shop_button:active, .shop_button:hover {
     color: rgb(16, 69, 9);
-}
-
-.login {
-    text-decoration: none;
-    color: #C5E1E5;
-    font-size: 0.94vw;
-}
-
-.auth {
-    text-decoration: none;
-    border-radius: 100px;  
-    color: #C5E1E5; 
-    width: 5.05vw;
-    height: 2.71vw;
-    margin-left: 1.25vw;
-    font-size: 0.94vw;
-}
-
-
-.search {
-    width: 15vw;
-    height: 2.81vw;
-    top: 1.25vw;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 0.52vw;
-    border-style: none;
-    outline: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -96,6 +75,16 @@ body {
         width: 9vw;
         height: 6.92vw;
     }
+
+    .reg {
+        margin: 1.2vw 0 0 0;
+    }
+    
+    .shop_button {
+        margin: 0.5vw 0 0 2vw;
+        width: 3vw;
+        height: 3vw;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -112,6 +101,16 @@ body {
     .logo {
         width: 7.81vw;
         height: 5.94vw;
+    }
+
+    .reg {
+        margin-top: 6vw;
+        margin-bottom: 6.5vw;
+    }
+
+    .shop_button {
+        margin: 6vw 0 4vw 4vw;
+        width: 5vw;
     }
 }
 

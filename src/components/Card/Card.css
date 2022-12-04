@@ -1,6 +1,6 @@
 .Card {
     width: 25vw;
-    height: 20vw;
+    height: 25vw;
     box-shadow: 1px 1px 10px 4px #ccc;
     border-radius: 15px;
     overflow: hidden;
@@ -14,10 +14,46 @@
 .h2-p {
     display: flex;
     flex-direction: column;
+    margin-left: 0.5vw;
+}
+
+.select {
+    color: #0D444D;
+    width: 13.44vw;
+    height: 2.71vw;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+    border-radius: 5.21vw;
+    border-style: none;
+    margin-left: 1.5vw;
+    font-size: 1.4vw;
+    margin-right: 2vw;
+}
+
+.search {
+    width: 20vw;
+    height: 2.81vw;
+    font-size: 1.7vw;
+    top: 1.25vw;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 0.52vw;
+    border-style: none;
+    outline: none;
+}
+
+.input-alph {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2vw;
 }
 
 .Card-container {
     display: flex;
+}
+
+.Card-title {
+    margin: 0.5vw 0 0.5vw 0;
 }
 
 .button {
@@ -62,12 +98,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0;
+    margin-bottom: 0.5vw;
 }
 
 @media (max-width: 1200px) {
     .Card {
         width: 28vw;
-        height: 24vw;
+        height: 40vw;
         border-radius: 0.75vw;
         margin: 1.33vw;
     }
@@ -86,14 +123,39 @@
     .Card-button {
         margin: 0.5vw;
     }
+
+    .select {
+        width: 13.44vw;
+        height: 3vw;
+        margin-left: 2vw;
+        font-size: 1.8vw;
+    }
+    
+    .search {
+        width: 20vw;
+        height: 3vw;
+        font-size: 2vw;
+    }
+
+    .button {
+        width: 12vw;
+        height: 4vw;
+        font-size: 1.5vw;
+    }
 }
 
 @media (max-width: 640px) {
     .Card {
         width: 40vw;
-        height: 46.56vw;
+        height: 73vw;
         border-radius: 1.56vw;
         margin: 1.56vw;
+    }
+
+    .button {
+        width: 20vw;
+        height: 6vw;
+        font-size: 2.5vw;
     }
     
     .cards {
@@ -109,6 +171,29 @@
     
     .Card-button {
         margin-left: 16vw;
+    }
+
+    .select {
+        width: 22vw;
+        height: 4.6vw;
+        background: #FFFFFF;
+        border-radius: 3vw;
+        border-style: none;
+        margin-left: 1.5vw;
+        font-size: 2.6vw;
+        margin-right: 2vw;
+    }
+    
+    .search {
+        width: 24vw;
+        height: 4.6vw;
+        font-size: 2.6vw;
+        top: 1.25vw;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 0.2vw;
+        border-style: none;
+        outline: none;
     }
 }
 

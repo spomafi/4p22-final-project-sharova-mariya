@@ -22,3 +22,49 @@
     width: 10.63vw;
     height: 2.5vw;
 }
+
+@media screen and (max-width: 1200px) {
+    .container-footer {
+        height: 10vw;
+    }
+    
+    .mariisav {
+        margin-left: 31vw;
+        margin-right: 23vw;
+        font-size: 2vw;
+    }
+    
+    .logo-s {
+        margin-left: 5vw;
+        width: 7vw;
+        height: 7vw;
+    }
+    
+    .logo-ui {
+        width: 14vw;
+        height: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container-footer {
+        height: 14vw;
+    }
+    
+    .mariisav {
+        margin-left: 29vw;
+        margin-right: 20vw;
+        font-size: 2.3vw;
+    }
+    
+    .logo-s {
+        margin-left: 5vw;
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .logo-ui {
+        width: 16vw;
+        height: 4vw;
+    }
+}
